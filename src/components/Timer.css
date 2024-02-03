@@ -1,0 +1,38 @@
+.l1
+{
+    color:red;
+    font-weight: 500;
+    font-size: 30px;
+    margin-left: 7%; 
+    margin-top: 0.8%;
+}
+.v2
+{
+    border-left: 20px solid red;
+    height: 7%;
+    position: absolute;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+.days
+{
+    margin-left: 34%;
+  
+    font-size: 1rem;
+    margin-top: -0.5%;
+}
+.time
+{
+    margin-left: -11%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1%;
+    font-size: 3rem;
+}
+.fs
+{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-top: -6.5%;
+    margin-left: 5%;
+}
