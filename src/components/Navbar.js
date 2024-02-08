@@ -10,7 +10,7 @@ const Navbar=()=>
         <div className="rightview">
         <Link className="nav" to='/'>Home</Link> 
         <Link className="nav" to='/Timer'>Contact</Link>
-        <Link className="nav"to='/Home'>About</Link>
+        <Link className="nav"to='/About'>About</Link>
         <Link className="nav"to='/Home'>Sign Up</Link>
         <div className="isearch"><input className="input"placeholder="What are you looking for? " ></input><FaSearch className="icon"/></div>
         <div><FaHeart className="icon"/></div>
