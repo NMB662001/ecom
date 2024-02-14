@@ -8,7 +8,7 @@ const Timer=()=>
     const [hours,sethr]=useState(0)
     const [minutes,setmin]=useState(0)
     const [seconds,setsec]=useState(0)
-const deadline="February ,10,2024"
+const deadline="February ,20,2024"
 const getTime=()=>{
     const time=Date.parse(deadline)-Date.now()
     setdy(Math.floor(time/(1000*60*60*24)))

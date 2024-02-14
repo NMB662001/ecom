@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Timer from './components/Timer';
 import About from './components/About';
+import Signup from './components/Signup';
 function App() {
   return (
     <>
@@ -14,7 +15,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/Timer' element={<Timer/>}/>
          <Route path='/About' element={<About/>}/> 
-
+ <Route path='/Signup' element={<Signup/>}/>
       </Routes>
     </BrowserRouter></>
   );

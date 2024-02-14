@@ -15,12 +15,8 @@ const New1= () => {
     };
     return (
         <><div className="slider-container" >
-            {/* <Slider {...settings} > */}
-               <div style={{
-                display:'flex',
-                overflow:'scroll'
-                
-               }}> {
+            <Slider {...settings} > 
+               {
                     data.map((d) => (
                         <>
                                 <ul type="none">
@@ -32,8 +28,8 @@ const New1= () => {
                             </ul>
                         </>
                     ))}
-                    </div>
-            {/* </Slider> */}
+                
+            </Slider> 
         </div>
         <div>
 <button className="button" onClick={() => {
